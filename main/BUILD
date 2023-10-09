@@ -10,10 +10,10 @@ cc_library(
 
 cc_binary(
     name = "hello-frodo", 
-    srcs = ["srcs/hello_world.cpp"],
+    srcs = ["srcs/hello_world_main.cpp"],
     deps = [
         ":greetings", 
-        "//lib:hello-time",
+        "//lib:time-utils",
     ],
     copts =[
         "-Imain/includes",

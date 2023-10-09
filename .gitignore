@@ -1,0 +1,6 @@
+bazel-in
+bazel-out
+bazel-testlogs
+bazel-bin
+bazel-bazel_demo_for_dummy
+
