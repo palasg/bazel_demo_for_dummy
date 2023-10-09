@@ -2,7 +2,8 @@
 This is a dummy bazel build folder
 
 Tree structure of the folder: 
-root>
+```
+.
 |--WORKSPACE
 |--lib
 |    |--includes
@@ -20,3 +21,4 @@ root>
 |    |--test
 |    |    |--*cpp
 |         |--BUILD
+```
